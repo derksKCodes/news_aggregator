@@ -5,7 +5,12 @@ from datetime import datetime
 # Add the project root to the Python path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from scrapers import BBCScraper, CNNScraper, ReutersScraper, AlJazeeraScraper, NYTimesScraper
+from scrapers.bbc_scraper import BBCScraper
+from scrapers.cnn_scraper import CNNScraper 
+from scrapers.reuters_scraper import ReutersScraper
+from scrapers.aljazeera_scraper import AlJazeeraScraper
+from scrapers.nytimes_scraper import NYTimesScraper
+
 from utils.file_handlers import export_to_json, export_to_csv, export_to_xlsx
 from utils.database import insert_into_mongodb
 from utils.helpers import load_news_sites_config, display_headlines_table
