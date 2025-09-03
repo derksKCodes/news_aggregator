@@ -1,5 +1,5 @@
+# scrapers/bbc_scraper.py
 from .base_scraper import BaseScraper
-
 class BBCScraper(BaseScraper):
     def __init__(self):
         super().__init__("BBC", "https://www.bbc.com")
