@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Exported data files
+exports/*.csv
+exports/*.json
+exports/*.xlsx
+exports/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Selenium logs
+selenium.log
+
+# Misc
+*.log
+
+#data files
+data/
+scrapers/__pycache__/
+.csv
+.xlsx
